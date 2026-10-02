@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the preprint and the software archive."
+title: "two_numbers: group baseline and conditional predictive gain for grouped targets"
+version: "1.0.0"
+date-released: "2026-10-02"
+license: MIT
+repository-code: "https://github.com/lgboim/two-numbers"
+authors:
+  - family-names: "Elboim"
+    given-names: "Ariel"
+    orcid: "https://orcid.org/0009-0001-1341-366X"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23110289"
+    description: "Zenodo software archive"
+preferred-citation:
+  type: article
+  title: "What Aggregate Scores Hide: Group Baselines for Fine-Grained Claims"
+  authors:
+    - family-names: "Elboim"
+      given-names: "Ariel"
+      orcid: "https://orcid.org/0009-0001-1341-366X"
+  year: 2026
+  journal: "Preprints.org"
