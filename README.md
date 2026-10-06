@@ -2,6 +2,8 @@
 
 Check whether a headline score could come from group membership alone, and measure what a model adds beyond the group.
 
+**Paper:** [What Aggregate Scores Hide: Group Baselines for Fine-Grained Claims](https://doi.org/10.20944/preprints202610.0345.v1) (Preprints.org, 2026).
+
 ![Figure 1 of the paper: the published score, the group baseline and the gain beyond the group, for the matched cases in Sections 3-5](fig_main.png)
 
 *Figure 1 of the paper. (a) Where places in the world are, read from Llama-2-7B: the published probe scores R² .881, training-set country means alone score .963, and adding the model's readout to the country means removes .338 of the error they leave. (b) The same two numbers for every matched case in the paper. The time baselines (squares) are built from the target, not from group membership. Points are estimates. Space/time bands show the four-model range, not confidence intervals. Judge gains use nested Brier CPG. The heart-disease point is a median across partitions, with the interval from partition 0. Full interval definitions and additional uncertainty estimates, including the Yi World interval reaching zero under whole-country resampling, are in the paper.*
@@ -78,7 +80,7 @@ With features, the standard probe is a ridge regression on the target. The resid
 
 ## Reference
 
-Elboim, A. (2026). *What Aggregate Scores Hide: Group Baselines for Fine-Grained Claims.* Preprints.org (the DOI will be added here when the preprint is posted).
+Elboim, A. (2026). *What Aggregate Scores Hide: Group Baselines for Fine-Grained Claims.* Preprints.org. doi: [10.20944/preprints202610.0345.v1](https://doi.org/10.20944/preprints202610.0345.v1)
 
 Software archive (reserved DOI; the record will become public after the preprint is posted): Zenodo, doi: [10.5281/zenodo.23110289](https://doi.org/10.5281/zenodo.23110289). Version 1.0.0. See `CITATION.cff`.
 
